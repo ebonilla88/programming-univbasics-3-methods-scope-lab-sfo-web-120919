@@ -1,5 +1,5 @@
 $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-
+$phrase = "It's Dangerous To Go Alone! Take This."
 def mario
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   phrase = "It's-a me, Mario!"
@@ -10,8 +10,9 @@ def toadstool
   puts $status
 end
 
+
 def link 
- return "It's Dangerous To Go Alone! Take This."
+ puts $phrase
 end 
 
 def any_phrase(phrase = 'Do A Barrel Roll!')
